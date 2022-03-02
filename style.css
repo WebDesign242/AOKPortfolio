@@ -141,7 +141,6 @@ a button{
   color: #fff;
   cursor: pointer;
   border: 2px solid transparent;
-  transition: all 0.4s ease;
 }
 a button button:hover{
   border-color: #4070f4;
@@ -390,11 +389,22 @@ footer .text span a:hover{
   .navbar .menu .cancel-btn{
     display: none;
   }
+  .home .text-one{
+    text-align: center;
+  }
   .home .text-two{
     font-size: 65px;
+    text-align: center;
   }
   .home .text-three{
     font-size: 35px;
+    text-align: center;
+  }
+  .home .text-four{
+    text-align: center;
+  }
+  .link-ig{
+    text-align: center;
   }
   .skills .skills-details{
     align-items: center;
@@ -409,6 +419,9 @@ footer .text span a:hover{
     justify-content: center;
     align-items: center;
     width: 100%;
+  }
+  section .content{
+    margin-top: -100px;
   }
   .gallery .boxes .box{
     margin: 20px 0;
